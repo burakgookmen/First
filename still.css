@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+body{
+    background-image: url(wallpaperbetter\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100%;
+}
+
+
+/* Header Css */
+.header {
+    background-color: rgba(225, 107, 23, 0.836);
+    display: flex;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.header .title h1{
+    color: rgb(0, 0, 0);
+}
+
+.header .title h1 span{
+    color:#ffffff ;
+}
+
+.header .nav ul li{
+
+    list-style-type: none;
+}
+.header .nav ul li a{
+        text-decoration: none;
+        margin-right: 10px;
+        color: white;
+        font-size: 19px;
+}
+.header .nav ul li a:hover {
+    color: black;
+    cursor:pointer;
+
+}
+/* Header bitiş */
+
+
+/* Ana İçerik Başlangıç */
+
+.main{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main .info{
+    height: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    gap: 20px;
+}
+.main .info h1 {
+    color: rgb(0, 0, 0);
+} 
+
+.main .info p{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.main .info p b{
+    color: darkred;
+    text-transform: capitalizes;
+}
+.main .info button{
+    border: none;
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .info button:hover{
+    background-color: rgba(0, 0, 0, 0.814);
+}
+/* Ana İçerik Bitiş */
+
+
+/* table Başlangıç alanı */
+
+.table-container{
+    width: 80%;
+    margin: 20px auto;
+}
+.table-container table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+th,  
+td{
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+}
+th{
+    background-color: chocolate;
+    color: #000000;
+}
+/* Table Alanı Bitiş */
+
+
+/* Form Alanı Başlangıç */
+
+
+.form-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: transparent black;
+}
+label{
+    font-weight: bold;
+}
+
+#ad,
+#email,
+textarea{
+    width: 99%;
+    padding: 10px;
+    border: 1px solid rgb(87, 85, 85);
+    border-radius: 5px;
+}
+.btn{
+    background-color: chocolate;
+    color: antiquewhite;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/* form Alanı Bitiş */
+
+/* footer Alanı Başlangıç */
+.footer{
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    height: 110px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer ul  a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 19px;
+    position: relative;
+    right: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer ul a:hover{
+    color: rgb(0, 0, 0);
+    cursor:pointer;
+}
+
+.footer i h2{
+    color: white;
+    position: relative;
+    right: 600px;
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* footer Alanı bitiş */ 
+
+/* Media Sorgusu */
+
+@media (max-width:800px){
+    .header .nav{
+        display: none;
+    }
+}
+/* Media Bitiş */
+
+
+
+
