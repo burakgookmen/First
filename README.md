@@ -1,4 +1,4 @@
-
+    
 # HTML & CSS First project
 
 HTML Ve CSS Kullanılarak hazırlanmıştır. Basit bir Web Sitesi Örneğidir.
@@ -27,10 +27,4 @@ Herhangi bir geri bildiriminiz varsa, lütfen burakgokmen125@gmail.com adresinde
 
 
 
-![](ezgif.com-gif-maker.gif)# First-Project
-# First-Project
-# First-Project
-# First-Project
-# First
-# First
-# First
+![](ezgif.com-gif-maker.gif)# First
